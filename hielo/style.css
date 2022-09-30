@@ -1,0 +1,247 @@
+/* google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* clearfix */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)) , url('images/slide01.jpg') no-repeat center center;
+    height: 700px;
+    color: white;
+
+}
+
+nav{
+    max-width: 95%;
+    padding-top:20px ;
+    margin: auto;
+
+}
+
+.logo{
+    float: left;
+}
+
+.logo span{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.menu{
+    float: right;
+}
+
+.heading{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 232px;
+}
+
+.heading p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.heading h1{
+    font-size: 60px;
+    border-top:3px solid gray;
+    max-width: 150px;
+    margin:20px auto;
+}
+
+/* section  */
+
+section,img{
+    width: 100%;
+
+}
+
+.cont{
+    width: 90%;
+    margin: 50px auto;
+    overflow: auto;
+}
+
+.cont .space{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.cont .justify{
+    text-align: justify;
+    padding: 0 30px;
+    line-height: 25px;
+}
+
+ .cont hr{
+    margin-bottom: 7px;
+    width: 39%;
+    margin: auto;
+ }
+
+.cont p{
+margin: 20px 0;
+}
+
+.cont button{
+    width: 100px;
+    height: 36px;
+    border-radius: 2px ;
+    background: none;
+}
+
+.card1,.card2{
+    width: 48%;
+    float: left;
+    text-align: center;
+    border: 3px solid #8080801c;
+    background-color: white;
+
+    
+}
+
+ 
+.card2{
+    float: right;
+    
+}
+
+/* center  */
+
+.center{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.center .marg{
+    width: 60%;
+margin: auto;
+}
+
+.center hr{
+    width: 87%;
+    padding: 0 5px;
+    margin: 10px auto;
+}
+
+/* team  */
+
+.team{
+    width: 100%;
+}
+
+.team .main{
+    max-width: 90%;
+    margin:30px auto;
+
+    text-align: center;
+}
+
+
+.team .main hr{
+    width:  41%;
+    margin:10px auto;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.container img{
+   
+   width: 100%;  
+}
+
+.parent1,.parent2{
+  width: 100%; 
+  overflow: auto;
+}
+
+.parent2{
+   margin-top: 50px; 
+}
+
+.box1,.box3{
+ float: left;
+ width: 47%;
+
+
+  
+}
+
+.box2,.box4{
+    float: right;
+    width: 47%;
+    
+}
+
+/* footer 
+ */
+
+ footer{
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+    padding: 40px 0;
+ }
+
+ footer h4{
+    color: grey;
+ }
+
+ .last{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+ }
+
+ .social-icon{
+    margin-bottom: 13px;
+    font-size: 30px;
+    color: grey;
+ }
+
+ /* media queries */
+
+ @media only screen and (max-width:600px){
+    .card1,.card2{
+        width: 100%;
+        clear: both;
+    }
+
+    .card1{
+        margin-bottom: 50px;
+    }
+
+    .box1,.box2,.box3,.box4{
+        width: 100%;
+        clear: both;  
+        margin-bottom: 20px;
+    }
+
+    .parent2{
+        margin-top: 0; 
+     }
+
+     
+ }
+
+
